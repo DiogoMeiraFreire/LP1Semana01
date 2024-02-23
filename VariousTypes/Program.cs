@@ -21,6 +21,11 @@ namespace VariousTypes
             char arrow = '\u2794';
             char spades = '\u2660';
 
+            // Floating-point variables with literals
+            double  i = 3.14;
+            float   j = 3.15f;
+            decimal k = 3.16m;
+
             // Prints
             Console.WriteLine("Byte = "   + a);
             Console.WriteLine("Sbyte = "  + b);
@@ -35,6 +40,11 @@ namespace VariousTypes
             Console.WriteLine(star);
             Console.WriteLine(arrow);
             Console.WriteLine(spades);
+
+            //Floating-point prints
+            Console.WriteLine("Double = " + i);
+            Console.WriteLine("Float = " + j);
+            Console.WriteLine("Decimal = " + k);
         }
     }
 }
