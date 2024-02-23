@@ -6,7 +6,13 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // string variables
+            string unicode = "\u03A9";
+            string escape = "this is a tab \t a tab has occurred";
+
+            // prints
+            Console.WriteLine(unicode);
+            Console.WriteLine(escape);
         }
     }
 }
