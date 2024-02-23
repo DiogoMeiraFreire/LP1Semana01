@@ -26,6 +26,10 @@ namespace VariousTypes
             float   j = 3.15f;
             decimal k = 3.16m;
 
+            //Boolean variables
+            bool boolean1 = true;
+            bool boolean2 = false;
+
             // Prints
             Console.WriteLine("Byte = "   + a);
             Console.WriteLine("Sbyte = "  + b);
@@ -45,6 +49,10 @@ namespace VariousTypes
             Console.WriteLine("Double = " + i);
             Console.WriteLine("Float = " + j);
             Console.WriteLine("Decimal = " + k);
+
+            //Boolean prints
+            Console.WriteLine(boolean1);
+            Console.WriteLine(boolean2);
         }
     }
 }
