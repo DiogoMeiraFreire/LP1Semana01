@@ -16,6 +16,11 @@ namespace VariousTypes
             long    g = 5L;
             ulong   h = 6UL;
 
+            // Char variables with unicodes
+            char star = '\u2605';
+            char arrow = '\u2794';
+            char spades = '\u2660';
+
             // Prints
             Console.WriteLine("Byte = "   + a);
             Console.WriteLine("Sbyte = "  + b);
@@ -25,6 +30,11 @@ namespace VariousTypes
             Console.WriteLine("Uint = "   + f);
             Console.WriteLine("Long = "   + g);
             Console.WriteLine("Ulong = "  + h);
+
+            // Char prints
+            Console.WriteLine(star);
+            Console.WriteLine(arrow);
+            Console.WriteLine(spades);
         }
     }
 }
